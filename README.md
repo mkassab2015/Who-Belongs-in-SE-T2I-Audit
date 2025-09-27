@@ -36,13 +36,14 @@ Codebook guiding human coders in classifying demographic and stylistic attribute
 Image Analysis Prompt (Used to Prompt Models)
 List of text prompts used to generate the dataset across different roles and models.
 
-Usage
-Explore the data: Start with Images Data.xlsx for the full annotated dataset.
+**Usage**
+Explore the data: Start with Images Data.xlsx for the full annotated dataset/.
 Reproduce analyses: Use analysis_notebook.py or scripts in DeepFace Analysis and Script/.
-Understand methodology: Refer to the Coding Book and Image Analysis Prompt.
-Check extended results: See Additional Analysis per Models/ for supplementary findings.
-Citation
+Understand methodology: Refer to the Coding Book and Image Analysis Prompt/.
+Check extended results: See Additional Analysis per Models/ for supplementary findings/.
+
+**Citation**
 If you use this repository, please cite the associated forthcoming publication (details to be added after review).
 
-License
+**License**
 This repository is released for academic and non-commercial use only.
