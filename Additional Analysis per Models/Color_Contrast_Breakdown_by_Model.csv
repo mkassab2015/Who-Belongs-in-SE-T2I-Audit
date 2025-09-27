@@ -1,0 +1,5 @@
+LLM_Model,High,High contrast,Low,Low contrast,Moderate,Moderate contrast
+GPT4o,2,1,18,14,138,47
+Llama4,27,20,33,11,103,26
+Qwen3-235B-A22B,10,1,0,5,160,44
+Stable Diffusion,15,19,18,5,129,34
