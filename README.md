@@ -38,6 +38,9 @@ The dataset includes 880 images generated from multiple models using role-based 
 - **Image Analysis Prompt (Used to Prompt Models)**  
   List of text prompts used to generate the dataset across different roles and models.
 
+  - **Image Replications Table**  
+  Image Generation Attempts and Regenerations by Role and Model
+
 
 
 ## Usage
