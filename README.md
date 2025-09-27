@@ -1,50 +1,58 @@
-# Who-Belongs-in-SE-T2I-Audit
-Repository for Image Bias Audit Study
-This repository contains data, scripts, and supporting materials for a study investigating demographic and stylistic patterns in AI-generated images.
+# Repository for Image Bias Audit Study
+
+This repository contains data, scripts, and supporting materials for a study investigating demographic and stylistic patterns in AI-generated images.  
 The dataset includes 880 images generated from multiple models using role-based prompts, along with both human-coded and automated annotations.
 
 **NOTE: Please download the entire repository to be able to view the "generated images"**
 
-Repository Structure
 
-Data & Results
-Generated Images (880 Images)
-Complete set of generated images across roles and models.
+## Repository Structure
 
-Images Data (Analysis per Model)
-Excel sheet with demographic and stylistic attributes aggregated by model.
+###  Data & Results
+- **Generated Images (880 Images)**  
+  Complete set of generated images across roles and models.
 
-Images Data (Analysis per Role)
-Excel sheet with results aggregated by role prompts.
+- **Images Data (Analysis per Model)**  
+  Excel sheet with demographic and stylistic attributes aggregated by model.
 
-Images Data
-Master Excel dataset containing all coded attributes (e.g., gender, race/ethnicity, age group, facial expression, composition).
+- **Images Data (Analysis per Role)**  
+  Excel sheet with results aggregated by role prompts.
 
-Additional Analysis per Models
-Supplementary breakdowns and figures for model-level comparisons.
+- **Images Data**  
+  Master Excel dataset containing all coded attributes (e.g., gender, race/ethnicity, age group, facial expression, composition).
 
-Analysis Scripts
-analysis_notebook.py
-Python script for reproducing analyses and generating visualizations.
+- **Additional Analysis per Models**  
+  Supplementary breakdowns and figures for model-level comparisons.
 
-DeepFace Analysis and Script
-Scripts and outputs from the DeepFace library, used for automated demographic and sentiment analysis.
+###  Analysis Scripts
+- **analysis_notebook.py**  
+  Python script for reproducing analyses and generating visualizations.
 
-Documentation
-Coding Book (Used for coder training)
-Codebook guiding human coders in classifying demographic and stylistic attributes.
+- **DeepFace Analysis and Script**  
+  Scripts and outputs from the DeepFace library, used for automated demographic and sentiment analysis.
 
-Image Analysis Prompt (Used to Prompt Models)
-List of text prompts used to generate the dataset across different roles and models.
+###  Documentation
+- **Coding Book (Used for coder training)**  
+  Codebook guiding human coders in classifying demographic and stylistic attributes.
 
-**Usage**
-Explore the data: Start with Images Data.xlsx for the full annotated dataset/.
-Reproduce analyses: Use analysis_notebook.py or scripts in DeepFace Analysis and Script/.
-Understand methodology: Refer to the Coding Book and Image Analysis Prompt/.
-Check extended results: See Additional Analysis per Models/ for supplementary findings/.
+- **Image Analysis Prompt (Used to Prompt Models)**  
+  List of text prompts used to generate the dataset across different roles and models.
 
-**Citation**
-If you use this repository, please cite the associated forthcoming publication (details to be added after review).
 
-**License**
+
+## Usage
+
+1. **Explore the data**: Start with `Images Data.xlsx` for the full annotated dataset.  
+2. **Reproduce analyses**: Use `analysis_notebook.py` or scripts in `DeepFace Analysis and Script/`.  
+3. **Understand methodology**: Refer to the `Coding Book` and `Image Analysis Prompt`.  
+4. **Check extended results**: See `Additional Analysis per Models/` for supplementary findings.
+
+---
+
+## Citation
+If you use this repository, please cite the associated **forthcoming publication** (details to be added after review).
+
+---
+
+## License
 This repository is released for academic and non-commercial use only.
