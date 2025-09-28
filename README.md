@@ -31,7 +31,7 @@ The dataset includes 880 images generated from multiple models using role-based 
 - **DeepFace Analysis and Script**  
   Scripts and outputs from the DeepFace library, used for automated demographic and sentiment analysis.
 
-  - **Fairness Metrics**  
+- **Fairness Metrics**  
  Script to compute fairness metrics (RRs, CIs, JSD, Theil) for gender, age, and race vs. baselines.
 
 ###  Documentation
